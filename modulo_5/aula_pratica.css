@@ -1,0 +1,50 @@
+
+
+form > div, fieldset>div{ 
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+fieldset{
+    padding-left: 0;
+    background-color: lightgrey;
+}
+
+textarea{
+    vertical-align: text-top;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+div.cadastro{
+ padding-left: 150px;
+}
+
+.cadastro{
+    width: 300px;
+}
+
+.obrigatorio{
+    color: brown;
+    font-weight: 700;
+}
+
+legend{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    text-shadow: 0px 0px 5px black;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.checkbox label {
+    width: 300px;
+}

@@ -1,0 +1,86 @@
+@ :
+
+@media [atributo]{
+    [condições]
+}
+
+-> utilizado para diferenciar o conteúdo dependendo do dipositivo.
+
+@import url("[conteúdo]");
+
+-> pode importar arquivos externos, como CSS... Pode-se criar um arquivo que engloba diferentes arquivos.
+
+
+DISPLAY :
+
+  Nenhum:  p{display: none;} -> elemento não ocupa um espaço na tela... usado quando não se quer mostrar um elemento, dependendo da utilização
+
+  Em linha: p{display: inline;} -> mostra o elemento em linha, parecido com o block, mas não aceita tamanho;
+
+  Em bloco: p{display: block;} -> bloco;
+
+  Em bloco/linha: p{display: inline-block;} -> inline, e aceita tamanho;
+
+  Pode-se colocar, por exemplo, uma lista na horizontal dessa forma.
+
+POSICIONAMENTO:
+
+  Estático:  
+   -> ignora top / bottom / left / right e derivados;
+   -> ignora um posicionamento atribuído anteriormente;
+   
+  Relativo:
+   -> posicionado em relação a sua posição normal;
+
+  Fixo:
+   -> posição fixa independente da rolagem da tela;
+    
+  Absoluto:
+   -> a partir de um elemento relativo;
+   -> fixo, mas absoluto em relação a outro elemento;
+
+  Sticky:
+   -> Relativo enquanto não há o scroll, fixo enquanto há p scroll;
+   
+TAMANHO DA CAIXA:
+
+ box-sizing - corrige os valores que são alterados quando se define width e height, que acabram por 'quebrar' pading e border;
+ ex:
+     p{box-sizing: border-box}
+     *{box-sizing: border-box}
+    
+FLOAT:    
+ - define como um elemento vai flutuar;
+ - posicionar ou formatar um conteúdo;
+ - clear: none, left, right, both
+                                             ex: img{float: right}
+ - permite que a imagem seja encaixada ao conteúdo;
+ - permite que o elemento flutue, não alterando a caixa e seu conteúdo;
+
+FLEXBOX:
+
+ - Flexible box layout module;
+ - Cria mais simples a criação de layouts sem posicionamento e float;
+ 
+ Flex container -> .container{display:flex}
+     -> propriedades: direção, quebra, alinhamento;
+        
+       ex: quebra: .container{display:flex; flex-wrap: wrap}
+
+   --> Consegue dispôr o conteúdo de acordo com sua extensão;
+
+GRID:
+    - Permite a definição de linhas e colunas;
+    - Grid container e grid itens;
+    .container {display:grid;}
+       grid-template-columns: 80px 200px auto 40px;
+       grid-template-rows: 60% auto auto;
+
+PILHA DOS ELEMENTOS:
+
+   - mostra a disposição dos elementos que ocupam o mesmo espaço na página;
+   - z-index;
+
+
+
+    
